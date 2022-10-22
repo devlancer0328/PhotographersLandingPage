@@ -11,7 +11,7 @@ Photographer's Landing Page written using React & created with Vite.
 Project was created with:
 * Vite
 
-Used technolgies:
+Used technologies:
 * JavaScript
 * React
 * Styled Components
