@@ -18,10 +18,10 @@ Used technologies:
 
 ## Screens
 * Desktop version :computer:     
--
+--*To Do*
 
 * Mobile version :iphone:     
--
+--*To Do*
 
 ## Live :star2:
--
+* --*To Do*
