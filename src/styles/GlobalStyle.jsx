@@ -11,6 +11,8 @@ const GlobalStyle = createGlobalStyle`
 
     body {
         font-family: 'Public Sans', sans-serif;
+        font-size: 16px;
+        color: #000000;
     }
 `;
 
