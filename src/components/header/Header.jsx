@@ -1,6 +1,10 @@
+import { Navbar } from "./HeaderStyle";
+
 const Header = () => {
     return ( 
-        <div>Header</div>
+        <Navbar>
+            <div>Header</div>
+        </Navbar>
      );
 }
 
