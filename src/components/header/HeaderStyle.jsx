@@ -12,6 +12,7 @@ export const Navbar = styled.div `
 `;
 
 export const Logo = styled.div `
+    font-family: 'Carter One', sans-serif;
     font-size: 24px;
     color: #000000;
     margin-right: 16px;
