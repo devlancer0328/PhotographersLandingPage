@@ -1,6 +1,12 @@
+import { ArticleContainer } from "./ArticleStyle";
+
 const Article = () => {
     return ( 
-        <div>Article</div>
+        <div>
+            <ArticleContainer>
+                Article
+            </ArticleContainer>
+        </div>
      );
 }
 
