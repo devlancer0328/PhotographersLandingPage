@@ -1,6 +1,9 @@
 import styled from "styled-components";
 
 export const Navbar = styled.div `
+    position: fixed;
+    top: 0;
+    left: 0;
     display: flex;
     flex-direction: row;
     align-items: center;

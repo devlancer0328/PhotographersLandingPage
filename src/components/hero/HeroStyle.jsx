@@ -9,4 +9,5 @@ export const Img = styled.img `
     width: 100vw;
     height: 60vh;
     object-fit: cover;
+    margin-top: 60px;
 `;
