@@ -1,4 +1,4 @@
-import { Navbar, Logo, Ul, Li } from "./HeaderStyle";
+import { Navbar, Logo, Ul, Li, Button, linkStyle, buttonStyle } from "./HeaderStyle";
 import { Link } from 'react-router-dom';
 
 const Header = () => {
@@ -9,20 +9,20 @@ const Header = () => {
             </Logo>
             <Ul>
                 <Li>
-                    <Link to={`#`}>Home</Link>
+                    <Link to={`#`} style={linkStyle}>Home</Link>
                 </Li>
                 <Li>
-                    <Link to={`#`}>About</Link>
+                    <Link to={`#`} style={linkStyle}>About</Link>
                 </Li>
                 <Li>
-                    <Link to={`#`}>Article</Link>
+                    <Link to={`#`} style={linkStyle}>Article</Link>
                 </Li>
                 <Li>
-                    <Link to={`#`}>Gallery</Link>
+                    <Link to={`#`} style={linkStyle}>Gallery</Link>
                 </Li>
-                <Li>
-                    <Link to={`#`}>Contact</Link>
-                </Li>
+                <Button>
+                    <Link to={`#`} style={buttonStyle}>Contact</Link>
+                </Button>
             </Ul>
         </Navbar>
      );
