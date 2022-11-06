@@ -1,7 +1,10 @@
 import styled from "styled-components";
 
 export const Navbar = styled.div `
-    display: block;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
     width: 100vw;
     height: 60px;
     background-color: #FFFFFF;
@@ -11,13 +14,39 @@ export const Navbar = styled.div `
 export const Logo = styled.div `
     font-size: 24px;
     color: #000000;
+    margin-right: 16px;
 `;
 
-export const Ul = styled.div `
+export const Ul = styled.ul `
     display: flex;
+    align-items: center;
+    justify-content: center;
     flex-direction: row;
 `;
 
-export const Li = styled.div `
+export const Li = styled.li `
     margin-right: 16px;
 `;
+
+export const Button = styled.a `
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(45deg, rgba(89, 131, 252, 1) 31%, rgba(41, 53, 86, 1) 100%);
+    width: 100px;
+    padding: 8px 4px;
+    border-radius: 24px;
+    color: #FFFFFF !important;
+    font-weight: 700;
+`;
+
+export const linkStyle = {
+    margin: "1rem",
+    textDecoration: "none",
+    color: 'blue'
+};
+
+export const buttonStyle = {
+    textDecoration: "none",
+    color: '#FFFFFF'
+};
