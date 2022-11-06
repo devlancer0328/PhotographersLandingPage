@@ -20,8 +20,8 @@ const Header = () => {
                 <Li>
                     <Link to={`#`} style={linkStyle}>Gallery</Link>
                 </Li>
-                <Button>
-                    <Link to={`#`} style={buttonStyle}>Contact</Link>
+                <Button as={Link} to={`#`} style={buttonStyle}>
+                    Contact
                 </Button>
             </Ul>
         </Navbar>
