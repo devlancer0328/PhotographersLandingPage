@@ -31,7 +31,11 @@ export const Li = styled.li `
         margin: 1rem;
         text-decoration: none;
         color: blue;
+        &:hover {
+            font-weight: 600;
+        }
     }
+    
 `;
 
 export const Button = styled.a `
@@ -45,4 +49,7 @@ export const Button = styled.a `
     color: #FFFFFF;
     font-weight: 700;
     text-decoration: none;
+    &:hover {
+        background-image: linear-gradient(60deg, rgba(89, 131, 252, 1) 81%, rgba(41, 53, 86, 1) 100%);
+    }
 `;
