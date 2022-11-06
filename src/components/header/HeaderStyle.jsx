@@ -17,7 +17,7 @@ export const Logo = styled.div `
     font-size: 24px;
     color: #000000;
     margin-right: 16px;
-    left: 8vw;
+    left: 16vw;
 `;
 
 export const Ul = styled.ul `
@@ -53,7 +53,7 @@ export const Button = styled.a `
     color: #FFFFFF;
     font-weight: 700;
     text-decoration: none;
-    right: 8vw;
+    right: 16vw;
     &:hover {
         background-image: linear-gradient(60deg, rgba(89, 131, 252, 1) 81%, rgba(41, 53, 86, 1) 100%);
     }
