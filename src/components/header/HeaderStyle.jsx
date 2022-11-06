@@ -12,10 +12,12 @@ export const Navbar = styled.div `
 `;
 
 export const Logo = styled.div `
+    position: absolute;
     font-family: 'Carter One', sans-serif;
     font-size: 24px;
     color: #000000;
     margin-right: 16px;
+    left: 8vw;
 `;
 
 export const Ul = styled.ul `
@@ -28,27 +30,30 @@ export const Ul = styled.ul `
 export const Li = styled.li `
     margin-right: 16px;
     a {
-        margin: 1rem;
+        display: block;
+        margin: 16px;
+        width: 56px;
         text-decoration: none;
         color: blue;
         &:hover {
             font-weight: 600;
         }
     }
-    
 `;
 
 export const Button = styled.a `
+    position: absolute;
     display: flex;
     align-items: center;
     justify-content: center;
     background-image: linear-gradient(45deg, rgba(89, 131, 252, 1) 31%, rgba(41, 53, 86, 1) 100%);
-    width: 100px;
-    padding: 8px 4px;
+    width: 120px;
+    padding: 8px 16px;
     border-radius: 24px;
     color: #FFFFFF;
     font-weight: 700;
     text-decoration: none;
+    right: 8vw;
     &:hover {
         background-image: linear-gradient(60deg, rgba(89, 131, 252, 1) 81%, rgba(41, 53, 86, 1) 100%);
     }
