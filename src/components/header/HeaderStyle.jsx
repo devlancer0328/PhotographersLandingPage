@@ -41,6 +41,7 @@ export const Button = styled.a `
     width: 100px;
     padding: 8px 4px;
     border-radius: 24px;
-    color: #FFFFFF !important;
+    color: #FFFFFF;
     font-weight: 700;
+    text-decoration: none;
 `;

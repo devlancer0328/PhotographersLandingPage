@@ -1,4 +1,4 @@
-import { Navbar, Logo, Ul, Li, Button, buttonStyle } from "./HeaderStyle";
+import { Navbar, Logo, Ul, Li, Button } from "./HeaderStyle";
 import { Link } from 'react-router-dom';
 
 const Header = () => {
