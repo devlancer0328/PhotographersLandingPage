@@ -26,6 +26,11 @@ export const Ul = styled.ul `
 
 export const Li = styled.li `
     margin-right: 16px;
+    a {
+        margin: 1rem;
+        text-decoration: none;
+        color: blue;
+    }
 `;
 
 export const Button = styled.a `
@@ -39,14 +44,3 @@ export const Button = styled.a `
     color: #FFFFFF !important;
     font-weight: 700;
 `;
-
-export const linkStyle = {
-    margin: "1rem",
-    textDecoration: "none",
-    color: 'blue'
-};
-
-export const buttonStyle = {
-    textDecoration: "none",
-    color: '#FFFFFF'
-};
