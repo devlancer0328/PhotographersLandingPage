@@ -12,6 +12,7 @@ const GlobalStyle = createGlobalStyle`
         font-family: 'Public Sans', sans-serif;
         font-size: 16px;
         color: #000000;
+        overflow-x: hidden;
     }
 `;
 
