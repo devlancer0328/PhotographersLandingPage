@@ -21,6 +21,10 @@ export const Logo = styled.div `
     color: #000000;
     margin-right: 16px;
     left: 16vw;
+    a {
+        text-decoration: none;
+        color: #000000;
+    }
 `;
 
 export const Ul = styled.ul `
