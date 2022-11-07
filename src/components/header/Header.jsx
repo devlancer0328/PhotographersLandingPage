@@ -5,7 +5,7 @@ const Header = () => {
     return ( 
         <Navbar>
             <Logo>
-                PhotoPassion
+                <Link to={`#home`}>PhotoPassion</Link>
             </Logo>
             <Ul>
                 <Li>
