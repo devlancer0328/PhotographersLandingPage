@@ -3,7 +3,7 @@ import heroImage from "./../../img/background-image.jpg"
 
 const Hero = () => {
     return ( 
-        <div>
+        <div id="home">
             <HeroContainer>
                 <Img src={heroImage} alt="hero image" />
             </HeroContainer>

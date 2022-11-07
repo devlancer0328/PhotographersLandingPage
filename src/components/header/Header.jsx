@@ -1,5 +1,5 @@
 import { Navbar, Logo, Ul, Li, Button } from "./HeaderStyle";
-import { Link } from 'react-router-dom';
+import { HashLink as Link } from 'react-router-hash-link';
 
 const Header = () => {
     return ( 
@@ -9,18 +9,18 @@ const Header = () => {
             </Logo>
             <Ul>
                 <Li>
-                    <Link to={`#`}>Home</Link>
+                    <Link to={`#home`}>Home</Link>
                 </Li>
                 <Li>
-                    <Link to={`#`}>About</Link>
+                    <Link to={`#about`}>About</Link>
                 </Li>
                 <Li>
-                    <Link to={`#`}>Article</Link>
+                    <Link to={`#article`}>Article</Link>
                 </Li>
                 <Li>
-                    <Link to={`#`}>Gallery</Link>
+                    <Link to={`#gallery`}>Gallery</Link>
                 </Li>
-                <Button as={Link} to={`#`}>
+                <Button as={Link} to={`#contact`}>
                     Contact
                 </Button>
             </Ul>

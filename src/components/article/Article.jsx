@@ -2,7 +2,7 @@ import { ArticleContainer } from "./ArticleStyle";
 
 const Article = () => {
     return ( 
-        <div>
+        <div id="article">
             <ArticleContainer>
                 Article
             </ArticleContainer>
