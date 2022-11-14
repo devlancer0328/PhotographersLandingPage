@@ -9,7 +9,7 @@ import Gallery from "./components/gallery/Gallery";
 
 const App = () => {
   return ( 
-    <div>
+    <>
       <GlobalStyle />
       <Header />
       <Hero />
@@ -17,7 +17,7 @@ const App = () => {
       <Article />
       <Gallery />
       <Footer />
-    </div>
+    </>
    );
 }
 
