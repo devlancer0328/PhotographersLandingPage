@@ -166,7 +166,7 @@ Error generating stack: `+o.message+`
     height: 60vh;
     object-fit: cover;
     margin-top: 60px;
-`,l0="/assets/background-image.5185ba17.jpg",o0=()=>D("div",{id:"home",children:D(n0,{children:D(r0,{src:l0,alt:"hero image"})})}),i0=ft.div`
+`,l0=""+new URL("background-image.5185ba17.jpg",import.meta.url).href,o0=()=>D("div",{id:"home",children:D(n0,{children:D(r0,{src:l0,alt:"hero image"})})}),i0=ft.div`
     margin: 0 auto;
     height: 60vh;
     padding: 124px 16vw 64px 16vw;
