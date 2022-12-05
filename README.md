@@ -24,4 +24,4 @@ Used technologies:
 --*To Do*
 
 ## Live :star2:
-* --*To Do*
+* https://goldipl.github.io/PhotographersLandingPage/
