@@ -17,8 +17,9 @@ Used technologies:
 * Styled Components
 
 ## Screens
-* Desktop version :computer:     
---*To Do*
+* Desktop version :computer:   
+  
+![screenshot](./screenshot_desktop.png)
 
 * Mobile version :iphone:     
 --*To Do*
