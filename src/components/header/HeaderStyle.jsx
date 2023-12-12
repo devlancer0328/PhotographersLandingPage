@@ -37,7 +37,7 @@ export const Logo = styled.div `
 `;
 
 export const Ul = styled.ul `
-    display: none;
+    display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: row;
