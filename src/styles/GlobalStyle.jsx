@@ -9,6 +9,10 @@ const GlobalStyle = createGlobalStyle`
         scroll-behavior: smooth;
     }
 
+    html {
+        overflow-x: hidden;
+    }
+
     body {
         font-family: 'Public Sans', sans-serif;
         font-size: 16px;
