@@ -99,7 +99,7 @@ Error generating stack: `+o.message+`
         left: 16px;
     }
 `,c0=rt.ul`
-    display: none;
+    display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: row;
