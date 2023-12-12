@@ -13,5 +13,12 @@ export const AboutContainer = styled.div `
     p {
         color: #888888;
         width: 40vw;
+        text-align: justify;
+    }
+
+    @media (max-width: 1080px) {
+        p {
+            width: 100%;
+        }
     }
 `;

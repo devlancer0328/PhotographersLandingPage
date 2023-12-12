@@ -12,6 +12,10 @@ export const Navbar = styled.div `
     height: 60px;
     background-color: #FFFFFF;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+
+    @media (max-width: 1080px) {
+        justify-content: flex-start;
+    }
 `;
 
 export const Logo = styled.div `
@@ -25,13 +29,28 @@ export const Logo = styled.div `
         text-decoration: none;
         color: #000000;
     }
+
+    @media (max-width: 1080px) {
+        position: relative;
+        left: 16px;
+    }
 `;
 
 export const Ul = styled.ul `
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: center;
     flex-direction: row;
+
+    @media (max-width: 1080px) {
+        display: ${({ openMenu }) => openMenu ? 'none' : 'flex'};
+        width: 100%;
+        background-color: #FFFFFF;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        padding-bottom: 24px;
+    }
 `;
 
 export const Li = styled.li `
@@ -45,6 +64,10 @@ export const Li = styled.li `
         &:hover {
             font-weight: 600;
         }
+    }
+
+    @media (max-width: 1080px) {
+        margin-right: 0;
     }
 `;
 
@@ -63,5 +86,25 @@ export const Button = styled.a `
     right: 16vw;
     &:hover {
         background-image: linear-gradient(60deg, rgba(89, 131, 252, 1) 81%, rgba(41, 53, 86, 1) 100%);
+    }
+
+    @media (max-width: 1080px) {
+        position: relative;
+        right: 0;
+        margin-top: 16px;
+    }
+`;
+
+export const Hamburger = styled.div `
+    display: none;
+    font-size: 28px;
+    width: 30px;
+    height: 40px;
+    position: absolute;
+    right: 16px;
+    cursor: pointer;
+
+    @media (max-width: 1080px) {
+        display: flex;
     }
 `;
