@@ -4,7 +4,7 @@ import Header from "./components/header/Header";
 import Footer from "./components/footer/Footer"
 import Hero from "./components/hero/Hero";
 import About from "./components/about/About";
-import Article from "./components/article/Article";
+import Offert from "./components/offert/Offert";
 import Gallery from "./components/gallery/Gallery";
 
 const App = () => {
@@ -14,7 +14,7 @@ const App = () => {
       <Header />
       <Hero />
       <About />
-      <Article />
+      <Offert />
       <Gallery />
       <Footer />
     </>

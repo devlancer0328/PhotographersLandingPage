@@ -16,16 +16,16 @@ const Header = () => {
             </Logo>
             <Ul openMenu={!openMenu}>
                 <Li>
-                    <Link to={`#home`}>Home</Link>
-                </Li>
-                <Li>
                     <Link to={`#about`}>O nas</Link>
                 </Li>
                 <Li>
-                    <Link to={`#article`}>Artykuł</Link>
+                    <Link to={`#offert`}>Oferta</Link>
                 </Li>
                 <Li>
-                    <Link to={`#gallery`}>Galeria</Link>
+                    <Link to={`#gallery`}>Portfolio</Link>
+                </Li>
+                <Li>
+                    <Link to={`#pricelist`}>Cennik</Link>
                 </Li>
                 <Button as={Link} to={`#contact`}>
                     Kontakt
