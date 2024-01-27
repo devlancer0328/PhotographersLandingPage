@@ -6,8 +6,11 @@ export const AboutContainer = styled.div `
     padding: 60px 16vw 64px 16vw;
     h1 {
         margin-bottom: 16px;
+        font-style: italic;
+        font-weight: 600;
         span {
-            font-family: 'Carter One', sans-serif;
+            font-style: normal;
+            font-weight: 300;
         }
     }
     p {

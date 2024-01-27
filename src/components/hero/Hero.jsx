@@ -6,7 +6,7 @@ const Hero = () => {
         <div id="home">
             <HeroContainer>
                 <Img src={heroImage} alt="hero image" />
-                <HeroText>Uwieczniamy najpiękniejsze momenty</HeroText>
+                <HeroText>Uwieczniamy najpiękniejsze <span>momenty</span></HeroText>
             </HeroContainer>
         </div>
      );

@@ -19,16 +19,16 @@ const Header = () => {
                     <Link to={`#home`}>Home</Link>
                 </Li>
                 <Li>
-                    <Link to={`#about`}>About</Link>
+                    <Link to={`#about`}>O nas</Link>
                 </Li>
                 <Li>
-                    <Link to={`#article`}>Article</Link>
+                    <Link to={`#article`}>Artykuł</Link>
                 </Li>
                 <Li>
-                    <Link to={`#gallery`}>Gallery</Link>
+                    <Link to={`#gallery`}>Galeria</Link>
                 </Li>
                 <Button as={Link} to={`#contact`}>
-                    Contact
+                    Kontakt
                 </Button>
             </Ul>
             <Hamburger onClick={toggleMenu}>☰</Hamburger>

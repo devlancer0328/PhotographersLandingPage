@@ -22,7 +22,7 @@ export const Logo = styled.div `
     position: absolute;
     font-family: 'Karla', sans-serif;
     font-weight: 200;
-    font-size: 32px;
+    font-size: 36px;
     color: #FFFFFF;
     margin-right: 16px;
     left: 16vw;
@@ -123,6 +123,7 @@ export const Hamburger = styled.div `
     position: absolute;
     right: 16px;
     cursor: pointer;
+    color: #FFFFFF;
 
     @media (max-width: 1080px) {
         display: flex;

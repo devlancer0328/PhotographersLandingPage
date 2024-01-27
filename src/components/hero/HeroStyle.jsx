@@ -28,6 +28,15 @@ export const HeroText = styled.p `
     word-wrap: normal;
     width: 160px;
     color: #FFFFFF;
+    z-index: 1;
+    span {
+        font-weight: 400;
+    }
+    @media (max-width: 1080px) {
+        top: 50vh;
+        font-size: 38px;
+    }
+    
 `;
 
 export const Img = styled.img `
