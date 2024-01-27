@@ -60,7 +60,7 @@ export const Li = styled.li `
         margin: 16px;
         width: 56px;
         text-decoration: none;
-        color: blue;
+        color: white;
         &:hover {
             font-weight: 600;
         }
