@@ -1,4 +1,4 @@
-import { HeroContainer, Img } from "./HeroStyle";
+import { HeroContainer, Img, HeroText } from "./HeroStyle";
 import heroImage from "./../../img/background-image.jpg"
 
 const Hero = () => {
@@ -6,6 +6,7 @@ const Hero = () => {
         <div id="home">
             <HeroContainer>
                 <Img src={heroImage} alt="hero image" />
+                <HeroText>Uwieczniamy najpiękniejsze momenty</HeroText>
             </HeroContainer>
         </div>
      );
