@@ -6,6 +6,8 @@ import Hero from "./components/hero/Hero";
 import About from "./components/about/About";
 import Offert from "./components/offert/Offert";
 import Gallery from "./components/gallery/Gallery";
+import Pricelist from "./components/pricelist/Pricelist";
+import Contact from "./components/contact/Contact";
 
 const App = () => {
   return ( 
@@ -16,6 +18,8 @@ const App = () => {
       <About />
       <Offert />
       <Gallery />
+      <Pricelist />
+      <Contact />
       <Footer />
     </>
    );

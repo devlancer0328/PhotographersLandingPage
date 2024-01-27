@@ -12,7 +12,7 @@ const Header = () => {
     return ( 
         <Navbar>
             <Logo>
-                <Link to={`#home`}>PhotoPassion</Link>
+                <Link to={`/`}>PhotoPassion</Link>
             </Logo>
             <Ul openMenu={!openMenu}>
                 <Li>

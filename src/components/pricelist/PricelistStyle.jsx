@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const FooterContainer = styled.div `
+export const PricelistContainer = styled.div `
     margin: 0 auto;
     height: auto;
     background-color: #e5e4e2;
