@@ -85,6 +85,9 @@ export const Li = styled.li `
 
     @media (max-width: 1080px) {
         margin-right: 0;
+        a {
+            color: #000000;
+        }
     }
 `;
 
