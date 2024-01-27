@@ -1,7 +1,7 @@
 ## Table of contents
 * [General info](#general-info)
 * [Technologies](#technologies)
-* [Screens](#screens)
+* [Screenshots](#screenshots)
 * [Live](#live-star2)
 
 ## General info
@@ -16,13 +16,10 @@ Used technologies:
 * React
 * Styled Components
 
-## Screens
-* Desktop version :computer:   
+## Screenshots
+* Desktop & mobile version :computer:   
   
-![screenshot](./screenshot_desktop.png)
-
-* Mobile version :iphone:     
---*To Do*
+![screenshot](./screenshots/screenshot01.jpg)
 
 ## Live :star2:
 * https://goldipl.github.io/PhotographersLandingPage/
