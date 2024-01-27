@@ -26,6 +26,7 @@ export const Logo = styled.div `
     color: #FFFFFF;
     margin-right: 16px;
     left: 16vw;
+    margin-top: 16px;
     a {
         text-decoration: none;
         color: #FFFFFF;
@@ -34,6 +35,13 @@ export const Logo = styled.div `
     @media (max-width: 1080px) {
         position: relative;
         left: 16px;
+        margin-top: 10px;
+        a {
+            img {
+                height: 40px;
+                width: auto;
+            }
+        }
     }
 `;
 
@@ -87,6 +95,8 @@ export const Li = styled.li `
         margin-right: 0;
         a {
             color: #000000;
+            text-align: center;
+            width: auto;
         }
     }
 `;
@@ -115,6 +125,9 @@ export const Button = styled.a `
         position: relative;
         right: 0;
         margin-top: 16px;
+        color: #000000;
+        font-size: 18px;
+        font-weight: 400;
     }
 `;
 

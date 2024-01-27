@@ -6,7 +6,7 @@ export const HeroContainer = styled.div `
     height: 80vh;
     &::after {
         content: "";
-        background: rgb(13 13 12 / 32%);
+        background: rgb(211 211 211 / 16%);
         position: absolute;
         top: 0;
         left: 0;
