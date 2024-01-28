@@ -13,7 +13,7 @@ const Header = () => {
         <Navbar>
             <Logo>
                 <Link to={`/`}>
-                    <img src="./../public/logo.png" alt="logo" width="241" height="56"/>
+                    <img src="./src/img/logo.png" alt="logo" width="241" height="56"/>
                 </Link>
             </Logo>
             <Ul openMenu={!openMenu}>
