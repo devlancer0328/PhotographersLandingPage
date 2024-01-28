@@ -2,7 +2,7 @@ import { FooterContainer } from "./FooterStyle";
 
 const Footer = () => {
     return ( 
-        <div id="contact">
+        <div id="footer">
             <FooterContainer>
                 Footer
             </FooterContainer>
