@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Navbar, Logo, Ul, Li, Button, Hamburger } from "./HeaderStyle";
 import { HashLink as Link } from 'react-router-hash-link';
+import logoImg from './../../img/logo.png'
 
 const Header = () => {
     const [openMenu, setOpenMenu] = useState(false);
@@ -13,7 +14,7 @@ const Header = () => {
         <Navbar>
             <Logo>
                 <Link to={`/`}>
-                    <img src="./src/img/logo.png" alt="logo" width="241" height="56"/>
+                    <img src={logoImg} alt="logo" width="241" height="56"/>
                 </Link>
             </Logo>
             <Ul openMenu={!openMenu}>
