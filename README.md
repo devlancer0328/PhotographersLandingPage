@@ -15,6 +15,7 @@ Used technologies:
 * JavaScript
 * React
 * Styled Components
+* AoS.js
 
 ## Screenshots
 * Desktop & mobile version :computer:   
