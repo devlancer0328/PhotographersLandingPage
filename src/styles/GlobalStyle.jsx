@@ -20,6 +20,10 @@ const GlobalStyle = createGlobalStyle`
         overflow-x: hidden;
     }
 
+    h1 {
+        margin: 0 0 24px 0;
+    }
+
     p {
         margin: 0 0 16px 0;
     }
