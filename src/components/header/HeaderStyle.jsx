@@ -11,7 +11,7 @@ export const Navbar = styled.div `
     width: 100vw;
     height: 60px;
     background-color: rgb(31 31 31 / 14%);
-    z-index: 1;
+    z-index: 999;
 
     @media (max-width: 1080px) {
         justify-content: flex-start;
