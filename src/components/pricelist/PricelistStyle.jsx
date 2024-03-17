@@ -5,4 +5,7 @@ export const PricelistContainer = styled.div`
   height: auto;
   background-color: #e5e4e24f;
   padding: 32px 16vw 32px 16vw;
+  @media (max-width: 760px) {
+    padding: 48px 32px;
+  }
 `;

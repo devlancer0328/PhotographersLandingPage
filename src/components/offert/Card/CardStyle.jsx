@@ -12,6 +12,11 @@ export const CardWrapper = styled.div`
   max-width: 400px;
   margin: 0 0 16px 0;
   z-index: 0;
+  @media (max-width: 600px) {
+    max-width: unset;
+    width: 100%;
+    grid-template-columns: repeat(auto-fill, 100%);
+  }
 `;
 
 export const CardImage = styled.div`

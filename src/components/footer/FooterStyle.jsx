@@ -15,4 +15,7 @@ export const FooterContainer = styled.div`
     color: #ffffff;
     margin: 0;
   }
+  @media (max-width: 760px) {
+    padding: 48px 32px;
+  }
 `;
