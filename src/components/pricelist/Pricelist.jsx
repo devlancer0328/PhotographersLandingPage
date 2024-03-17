@@ -86,6 +86,7 @@ const Article = () => {
   return (
     <div id="pricelist">
       <PricelistContainer>
+        <h1>Cennik</h1>
         <MantineReactTable table={table} />
       </PricelistContainer>
     </div>
