@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const AboutContainer = styled.div`
   margin: 0 auto;
   height: auto;
-  padding: 60px 16vw 64px 16vw;
+  padding: 92px 16vw 92px 16vw;
   h1 {
     font-style: italic;
     font-weight: 600;
