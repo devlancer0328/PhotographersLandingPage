@@ -36,7 +36,7 @@ export const CardTextTitle = styled.h2`
   box-sizing: border-box;
   min-width: 0px;
   line-height: 1.2;
-  margin: 0px;
+  margin: 8px 0 8px 0;
   background: linear-gradient(
     110.78deg,
     rgb(249, 214, 73) 15.22%,
