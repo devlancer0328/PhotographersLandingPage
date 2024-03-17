@@ -47,7 +47,7 @@ const data = [
   },
 ];
 
-const Article = () => {
+const Pricelist = () => {
   //should be memoized or stable
   const columns = useMemo(
     () => [
@@ -86,4 +86,4 @@ const Article = () => {
   );
 };
 
-export default Article;
+export default Pricelist;
