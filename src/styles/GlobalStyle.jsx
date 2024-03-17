@@ -19,6 +19,10 @@ const GlobalStyle = createGlobalStyle`
         color: #000000;
         overflow-x: hidden;
     }
+
+    p {
+        margin: 0 0 16px 0;
+    }
 `;
 
 export default GlobalStyle;
