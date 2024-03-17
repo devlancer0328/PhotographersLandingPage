@@ -34,7 +34,7 @@ export const HeroText = styled.p `
     }
     @media (max-width: 1080px) {
         top: 50vh;
-        font-size: 38px;
+        font-size: 28px;
     }
     
 `;
