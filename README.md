@@ -1,26 +1,37 @@
 ## Table of contents
-* [General info](#general-info)
-* [Technologies](#technologies)
-* [Screenshots](#screenshots)
-* [Live](#live-star2)
+
+- [General info](#general-info)
+- [Technologies](#technologies)
+- [Screenshots](#screenshots)
+- [Live](#live-star2)
 
 ## General info
+
 Photographer's Landing Page written using React & created with Vite.
 
 ## Technologies
+
 Project was created with:
-* Vite
+
+- Vite
 
 Used technologies:
-* JavaScript
-* React
-* Styled Components
-* AoS.js
+
+- JavaScript
+- React
+- Styled Components
+- AoS.js
+
+Used also:
+
+- Mantine React Table
 
 ## Screenshots
-* Desktop & mobile version :computer:   
-  
+
+- Desktop & mobile version :computer:
+
 ![screenshot](./screenshots/screenshot01.jpg)
 
 ## Live :star2:
-* https://goldipl.github.io/PhotographersLandingPage/
+
+- https://goldipl.github.io/PhotographersLandingPage/
