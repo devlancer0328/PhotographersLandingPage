@@ -9,3 +9,18 @@ export const ContactContainer = styled.div`
     padding: 48px 32px;
   }
 `;
+
+export const ContactTextWrapper = styled.div`
+  p {
+    margin: 0 0 12px 0;
+    a {
+      color: orange;
+    }
+  }
+`;
+
+export const PersonName = styled.strong`
+  display: inline-flex;
+  font-weight: 700;
+  font-size: 18px;
+`;
