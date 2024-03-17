@@ -4,49 +4,46 @@ import { MantineReactTable, useMantineReactTable } from "mantine-react-table";
 
 const data = [
   {
-    name: {
-      firstName: "Zachary",
-      lastName: "Davis",
-    },
-    address: "261 Battle Ford",
-    city: "Columbus",
-    state: "Ohio",
+    format: "20x25",
+    photo: "18,00 PLN",
+    poster: "9,00 PLN",
+    canvas: "65,00 PLN",
   },
   {
-    name: {
-      firstName: "Robert",
-      lastName: "Smith",
-    },
-    address: "566 Brakus Inlet",
-    city: "Westerville",
-    state: "West Virginia",
+    format: "21x30",
+    photo: "14,00 PLN",
+    poster: "11,00 PLN",
+    canvas: "75,00 PLN",
   },
   {
-    name: {
-      firstName: "Kevin",
-      lastName: "Yan",
-    },
-    address: "7777 Kuhic Knoll",
-    city: "South Linda",
-    state: "West Virginia",
+    format: "25x30",
+    photo: "18,00 PLN",
+    poster: "13,00 PLN",
+    canvas: "75,00 PLN",
   },
   {
-    name: {
-      firstName: "John",
-      lastName: "Upton",
-    },
-    address: "722 Emie Stream",
-    city: "Huntington",
-    state: "Washington",
+    format: "25x38",
+    photo: "20,00 PLN",
+    poster: "13,00 PLN",
+    canvas: "85,00 PLN",
   },
   {
-    name: {
-      firstName: "Nathan",
-      lastName: "Harris",
-    },
-    address: "1 Kuhic Knoll",
-    city: "Ohiowa",
-    state: "Nebraska",
+    format: "30x40",
+    photo: "27,00 PLN",
+    poster: "15,00 PLN",
+    canvas: "105,00 PLN",
+  },
+  {
+    format: "30x45",
+    photo: "38,00 PLN",
+    poster: "20,00 PLN",
+    canvas: "125,00 PLN",
+  },
+  {
+    format: "40x50",
+    photo: "40,00 PLN",
+    poster: "25,00 PLN",
+    canvas: "135,00 PLN",
   },
 ];
 
@@ -55,24 +52,20 @@ const Article = () => {
   const columns = useMemo(
     () => [
       {
-        accessorKey: "name.firstName", //access nested data with dot notation
-        header: "First Name",
+        accessorKey: "format", //access nested data with dot notation
+        header: "Format (w cm)",
       },
       {
-        accessorKey: "name.lastName",
-        header: "Last Name",
+        accessorKey: "photo",
+        header: "Foto (240g)",
       },
       {
-        accessorKey: "address", //normal accessorKey
-        header: "Address",
+        accessorKey: "poster", //normal accessorKey
+        header: "Plakat (120g)",
       },
       {
-        accessorKey: "city",
-        header: "City",
-      },
-      {
-        accessorKey: "state",
-        header: "State",
+        accessorKey: "canvas",
+        header: "Płótno",
       },
     ],
     []
