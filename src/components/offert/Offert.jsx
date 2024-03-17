@@ -12,9 +12,9 @@ const CardContainer = styled.div`
   align-items: center;
 `;
 
-const Pricelist = () => {
+const Offert = () => {
   return (
-    <div id="pricelist">
+    <div id="offert">
       <OffertContainer>
         <CardContainer>
           <Card title={"Karta 01"} date={1} imgUrl={img01} />
@@ -29,4 +29,4 @@ const Pricelist = () => {
   );
 };
 
-export default Pricelist;
+export default Offert;

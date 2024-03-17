@@ -16,6 +16,6 @@ export const FooterContainer = styled.div`
     margin: 0;
   }
   @media (max-width: 760px) {
-    padding: 48px 32px;
+    padding: 24px 16px;
   }
 `;

@@ -15,6 +15,7 @@ export const Navbar = styled.div`
 
   @media (max-width: 1080px) {
     justify-content: flex-start;
+    background-color: rgb(31 31 31 / 44%);
   }
 `;
 
@@ -98,6 +99,7 @@ export const Li = styled.li`
       color: #000000;
       text-align: center;
       width: auto;
+      text-shadow: none;
     }
   }
 `;
@@ -130,6 +132,7 @@ export const Button = styled.a`
     color: #000000;
     font-size: 18px;
     font-weight: 400;
+    text-shadow: none;
   }
 `;
 
