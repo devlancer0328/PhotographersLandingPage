@@ -25,6 +25,7 @@ Used technologies:
 Used also:
 
 - Mantine React Table
+- Swiper
 
 ## Screenshots
 

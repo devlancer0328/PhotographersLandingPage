@@ -1,7 +1,7 @@
 import React from "react";
 import GlobalStyle from "./styles/GlobalStyle";
 import Header from "./components/header/Header";
-import Footer from "./components/footer/Footer"
+import Footer from "./components/footer/Footer";
 import Hero from "./components/hero/Hero";
 import About from "./components/about/About";
 import Offert from "./components/offert/Offert";
@@ -10,7 +10,7 @@ import Pricelist from "./components/pricelist/Pricelist";
 import Contact from "./components/contact/Contact";
 
 const App = () => {
-  return ( 
+  return (
     <>
       <GlobalStyle />
       <Header />
@@ -22,7 +22,7 @@ const App = () => {
       <Contact />
       <Footer />
     </>
-   );
-}
+  );
+};
 
 export default App;
