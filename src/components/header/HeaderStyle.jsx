@@ -10,7 +10,7 @@ export const Navbar = styled.div `
     justify-content: center;
     width: 100vw;
     height: 60px;
-    background-color: rgba(255,255,255,0);
+    background-color: rgb(31 31 31 / 14%);
     z-index: 1;
 
     @media (max-width: 1080px) {
