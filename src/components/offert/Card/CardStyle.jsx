@@ -3,17 +3,20 @@ import styled from "styled-components";
 export const CardWrapper = styled.div`
   position: relative;
   display: grid;
-  grid-template-columns: repeat(auto-fill, 300px);
+  grid-template-columns: repeat(auto-fill, 100%);
   grid-template-rows: 210px 210px 80px;
   grid-template-areas: "image" "text" "stats";
   background: #000;
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
   text-align: center;
-  max-width: 400px;
+  max-width: 46.5%;
   z-index: 0;
-  margin: 16px;
-  @media (max-width: 600px) {
+  margin: 12px;
+  @media (max-width: 1360px) {
     max-width: unset;
+    width: 45%;
+  }
+  @media (max-width: 600px) {
     width: 100%;
     grid-template-columns: repeat(auto-fill, 100%);
     margin: 0 0 16px 0;
