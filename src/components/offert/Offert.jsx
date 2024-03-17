@@ -5,11 +5,6 @@ import img01 from "./../../img/offert/offert-photo01.jpg";
 import img02 from "./../../img/offert/offert-photo02.jpg";
 import img03 from "./../../img/offert/offert-photo03.jpg";
 
-const Separator = styled.span`
-  margin-left: 10px;
-  margin-right: 10px;
-`;
-
 const CardContainer = styled.div`
   display: flex;
   flex-wrap: wrap;
@@ -22,15 +17,12 @@ const Pricelist = () => {
     <div id="pricelist">
       <OffertContainer>
         <CardContainer>
-          <Card title={"My Card 01"} date={1} imgUrl={img01} />
-          <Separator />
-          <Card title={"My Card 02"} date={15} imgUrl={img02} />
-          <Separator />
-          <Card title={"My Card 03"} date={20} imgUrl={img03} />
-          <Separator />
-          <Card title={"My Card 04"} date={15} imgUrl={img02} />
-          <Separator />
-          <Card title={"My Card 05"} date={20} imgUrl={img03} />
+          <Card title={"Karta 01"} date={1} imgUrl={img01} />
+          <Card title={"Karta 02"} date={12} imgUrl={img02} />
+          <Card title={"Karta 03"} date={20} imgUrl={img03} />
+          <Card title={"Karta 04"} date={15} imgUrl={img02} />
+          <Card title={"Karta 05"} date={24} imgUrl={img03} />
+          <Card title={"Karta 01"} date={30} imgUrl={img01} />
         </CardContainer>
       </OffertContainer>
     </div>

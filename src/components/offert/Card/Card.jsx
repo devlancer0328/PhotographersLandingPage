@@ -15,7 +15,7 @@ export const Card = ({ title, date, imgUrl }) => {
     <CardWrapper>
       <CardImage background={imgUrl} />
       <CardTextWrapper>
-        <CardTextDate>{date} days ago</CardTextDate>
+        <CardTextDate>{date} dni temu</CardTextDate>
         <CardTextTitle>{title}</CardTextTitle>
         <CardTextBody>
           Lorem ipsum dolor sit amet consectetur, Ducimus, repudiandae
@@ -25,7 +25,7 @@ export const Card = ({ title, date, imgUrl }) => {
       <CardStatWrapper>
         <CardStats>
           <LinkText href="https://goldipl.github.io/Marcin-Programuje/">
-            Website
+            Zobacz
           </LinkText>
         </CardStats>
         <CardStats>

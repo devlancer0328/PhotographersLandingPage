@@ -10,12 +10,13 @@ export const CardWrapper = styled.div`
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
   text-align: center;
   max-width: 400px;
-  margin: 0 0 16px 0;
   z-index: 0;
+  margin: 16px;
   @media (max-width: 600px) {
     max-width: unset;
     width: 100%;
     grid-template-columns: repeat(auto-fill, 100%);
+    margin: 0 0 16px 0;
   }
 `;
 
