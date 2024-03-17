@@ -6,7 +6,7 @@ import {
 
 const Contact = () => {
   return (
-    <div id="contact">
+    <div id="contact" data-aos="fade-left">
       <ContactContainer>
         <h1>Kontakt</h1>
         <ContactTextWrapper>

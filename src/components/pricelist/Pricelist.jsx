@@ -77,7 +77,7 @@ const Pricelist = () => {
   });
 
   return (
-    <div id="pricelist">
+    <div id="pricelist" data-aos="fade-left">
       <PricelistContainer>
         <h1>Cennik</h1>
         <MantineReactTable table={table} />

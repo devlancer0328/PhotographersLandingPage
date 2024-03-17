@@ -14,7 +14,7 @@ const CardContainer = styled.div`
 
 const Offert = () => {
   return (
-    <div id="offert">
+    <div id="offert" data-aos="fade-left">
       <OffertContainer>
         <h1>Oferta</h1>
         <CardContainer>

@@ -3,7 +3,7 @@ import SwiperGallery from "./SwiperGallery";
 
 const Gallery = () => {
   return (
-    <div id="gallery">
+    <div id="gallery" data-aos="fade-left">
       <GalleryContainer>
         <h1>Galeria</h1>
         <SwiperGalleryContainer>
