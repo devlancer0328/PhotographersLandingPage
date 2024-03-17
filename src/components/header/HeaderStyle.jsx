@@ -55,7 +55,11 @@ export const Ul = styled.ul`
   @media (max-width: 1080px) {
     display: ${({ openMenu }) => (openMenu ? "none" : "flex")};
     width: 100%;
-    background-color: #ffffff;
+    background: linear-gradient(
+      110.78deg,
+      rgb(249, 214, 73) 15.22%,
+      rgb(240, 142, 53) 32.09%
+    );
     flex-direction: column;
     position: absolute;
     top: 60px;
