@@ -1,13 +1,11 @@
 import { PricelistContainer } from "./PricelistStyle";
 
-const Pricelist = () => {
-    return ( 
-        <div id="pricelist">
-            <PricelistContainer>
-                Pricelist
-            </PricelistContainer>
-        </div>
-     );
-}
+const Article = () => {
+  return (
+    <div id="article">
+      <PricelistContainer>Pricelist</PricelistContainer>
+    </div>
+  );
+};
 
-export default Pricelist;
+export default Article;
