@@ -2,8 +2,8 @@
 
 - [General info](#general-info)
 - [Technologies](#technologies)
-- [Screenshots](#screenshots)
 - [Live](#live-star2)
+- [Screenshots](#screenshots)
 
 ## General info
 
@@ -27,12 +27,16 @@ Used also:
 - Mantine React Table
 - Swiper
 
+## Live :star2:
+
+- https://goldipl.github.io/PhotographersLandingPage/
+
 ## Screenshots
 
 - Desktop & mobile version :computer:
 
 ![screenshot](./screenshots/screenshot01.jpg)
-
-## Live :star2:
-
-- https://goldipl.github.io/PhotographersLandingPage/
+![screenshot](./screenshots/screenshot02.jpg)
+![screenshot](./screenshots/screenshot03.jpg)
+![screenshot](./screenshots/screenshot04.jpg)
+![screenshot](./screenshots/screenshot05.jpg)
