@@ -18,8 +18,8 @@ const Contact = () => {
           </p>
           <p>
             Website:{" "}
-            <a href="https://goldipl.github.io/Marcin-Programuje/">
-              https://goldipl.github.io/Marcin-Programuje/
+            <a href="https://goldipl.github.io/vuejs-tailwindcss-portfolio/#/">
+              https://goldipl.github.io/vuejs-tailwindcss-portfolio/#/
             </a>
           </p>
         </ContactTextWrapper>
