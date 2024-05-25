@@ -29,7 +29,7 @@ Used also:
 
 ## Live :star2:
 
-- https://goldipl.github.io/PhotographersLandingPage/
+- https://photographers-landing-page.vercel.app/
 
 ## Screenshots
 
